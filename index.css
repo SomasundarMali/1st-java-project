@@ -1,0 +1,214 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html,body
+{
+width: 100%;
+overflow-x: hidden;
+}
+/* Banner started */
+.banner
+{
+    display:flex;
+    padding: 120px 150px;
+    background-color:rgb(252, 240, 240);
+    position: relative;
+    height: 900px;
+}
+.bannerchild1
+{
+    margin-right:20px;
+}
+.bannerchild2 img
+{
+    height: 400px;
+    width: 400px;
+}
+
+.bannerchild1 h1
+{
+    font-size: 50px;
+    font-family:sans-serif;
+    
+}
+.bannerchild1 p
+{
+    font-size:25px;
+    margin: 30px 0px 30px 0px;
+}
+.bannerbutton
+{
+    height: 50px;
+    width: 160px;
+    background-color: rgba(222,11,31,0.74);
+    border: none;
+    color: white;
+    margin-top: 5px;
+}
+.bannerbutton:hover
+{
+    margin-top: 0px;
+    transition: 0.3s;
+    box-shadow: 2px 2px 10px rgb(221, 217, 217);
+}
+/* subbanner started */
+.subbanner
+{
+    display: flex;
+    padding: 20px 150px ;
+    position: absolute;
+    top: 650px;
+}
+.subannerchild1
+{
+    background-color: white;
+    height:350px;
+    text-align: center;
+    
+}
+.subannerchild1 p
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+   
+}
+.subbanner i
+{
+   height: 60px;
+   
+}
+.subannerchild1:hover
+{
+    background-color: rgb(198, 44, 44);
+    color: white;
+} 
+.subbanner i
+{
+    height: 60px;
+    width: 60px;
+}
+/* subbanner ended */
+/* Banner ended */
+/*how do work started*/
+.work
+{
+    margin-top: 100px;
+    text-align: center;  
+    background-color:white;
+    padding: 150px;
+    
+}
+.subwork
+{
+    display: flex;
+    margin-top: 50px;
+    text-align: start;
+    align-items: center;
+    padding-right: 150px;
+}
+.subwork
+{
+    margin-right: 20px;
+    padding: 40px;
+}
+.arrow
+{
+    margin-right: 20px;
+}
+.workbutton2
+{
+    height: 50px;
+    width: 160px;
+    background-color: rgba(222,11,31,0.74);
+    border: none;
+    color: white;
+    margin-top: 5px;
+}
+
+/*how do work ended*/
+/* award started */
+.award
+{
+    display: flex;
+    padding: 0px 150px;
+    
+}
+/* .awardheading
+{
+    
+} */
+.subaward
+{
+    margin-left:80px;
+    
+}
+.awardimages
+{
+   
+  display: flex;
+}
+.awardimages img
+{
+   
+  margin:40px 140px 0px 0px ;
+  height:100px;
+  width: 100px;
+}
+
+/* award ended */
+
+/* get in touch started */
+.touch
+{
+    margin-top: 100px;
+}
+.touch1
+{
+    display: flex;
+    margin: 0px 30%;
+   
+}
+.touch h1
+{
+    text-align: center;
+}
+
+.touch2
+{
+    display: flex;
+    margin: 50px 100px;
+}
+.font1
+{
+    height: 20px;
+    width: 20px;
+}
+.font1 i
+{
+    height: 20px;
+    width: 20px;
+}
+/* get in touch ended */
+
+
+@media only screen and (min-width:0px) and (max-width:480px)
+{
+    .banner
+    {
+        padding: 0px;
+        margin: 0px;
+        display:block;
+    }
+
+}
+@media only screen and (max-width:480px)
+{
+    .subbanner
+    {
+        display: block;
+    }
+}
